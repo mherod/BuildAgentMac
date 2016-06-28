@@ -6,6 +6,8 @@
 #  Created by Matthew Herod on 22/06/2016.
 #
 
+which VBoxManage || source ~/.bash_profile
+
 APPDIR="/Applications"
 
 # echo "Quitting any existing Genymotion players"
