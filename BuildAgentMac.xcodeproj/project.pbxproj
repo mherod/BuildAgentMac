@@ -6,10 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		93DD22091D23291B00F75271 /* SetupEnvironment.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetupEnvironment.sh; sourceTree = "<group>"; };
+		93ED7DE91D1AA76E0082A153 /* TeamCityBuildAgent.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = TeamCityBuildAgent.sh; sourceTree = "<group>"; };
+		93ED7DEA1D1AA79C0082A153 /* AndroidEmulator.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = AndroidEmulator.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		93ED7DE21D1AA6FC0082A153 = {
 			isa = PBXGroup;
 			children = (
+				93DD22091D23291B00F75271 /* SetupEnvironment.sh */,
+				93ED7DEA1D1AA79C0082A153 /* AndroidEmulator.sh */,
+				93ED7DE91D1AA76E0082A153 /* TeamCityBuildAgent.sh */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +68,7 @@
 				93ED7DE81D1AA6FC0082A153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
