@@ -7,5 +7,5 @@
 #
 
 source ~/.bash_profile
-
+PATH=$ANDROID_HOME/tools:$PATH
 emulator @`emulator -list-avds | tail -n1`
