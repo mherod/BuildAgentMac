@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		936811A51DB6456700FF42B9 /* Avd.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Avd.sh; sourceTree = "<group>"; };
 		9368300A1D2336F000D52878 /* AndroidSdkUpdate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = AndroidSdkUpdate.sh; sourceTree = "<group>"; };
 		93DD22091D23291B00F75271 /* SetupEnvironment.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SetupEnvironment.sh; sourceTree = "<group>"; };
 		93ED7DE91D1AA76E0082A153 /* TeamCityBuildAgent.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = TeamCityBuildAgent.sh; sourceTree = "<group>"; };
@@ -17,6 +18,7 @@
 		93ED7DE21D1AA6FC0082A153 = {
 			isa = PBXGroup;
 			children = (
+				936811A51DB6456700FF42B9 /* Avd.sh */,
 				93DD22091D23291B00F75271 /* SetupEnvironment.sh */,
 				93ED7DE91D1AA76E0082A153 /* TeamCityBuildAgent.sh */,
 				9368300A1D2336F000D52878 /* AndroidSdkUpdate.sh */,
